@@ -16,8 +16,9 @@ function aleatorio() {
 
         let textoResultado = "Os números sorteados foram: " + resultadoFinal + ".";
 
-        document.getElementById('resposta').textContent = textoResultado;
+        document.getElementById('resposta').innerHTML = textoResultado;
     } else {
         aleatorio();
     }
 }
+
